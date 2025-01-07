@@ -30,7 +30,6 @@
 #   3. Large numbers of references may slow the script since it
 #      calls samtools depth once per reference.
 #
-# Author: Your Name
 # ------------------------------------------------------------------------
 
 # Abort on error, pipefail for safety
