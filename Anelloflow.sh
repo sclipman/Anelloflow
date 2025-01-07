@@ -458,3 +458,18 @@ rm "${SAMPLE_DIR}/${FULL_SAMPLE_NAME}_all_passing_reads.long.fastq.gz"
 done
 echo ""
 echo_green "All samples have been successfully processed."
+
+# Parse and compile the final output tables
+echo ""
+echo_blue "Compiling final output tables for all samples..."
+
+# Define the path to the parsing script (same directory as this script)
+PARSER_SCRIPT_PATH="$(dirname "$0")/parse_anelloflow_output.sh"
+
+if [ -f "$PARSER_SCRIPT_PATH" ]; then
+    bash "$PARSER_SCRIPT_PATH" "$INPUT_DIRECTORY"
+    echo_green "Final output tables have been compiled and printed to the terminal."
+else
+    echo_red "Error: Parsing script not found in the same directory as Anelloflow.sh"
+    echo_red "Ensure parse_anelloflow_output.sh is located alongside Anelloflow.sh."
+fi
