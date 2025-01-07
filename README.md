@@ -60,5 +60,5 @@ The script will generate the following files for each sample processed:
 
 ## Citation
 
->  [doi:xxxxxxxxxxxx]
+Anantharam, R., Duchen, D., Cox, A. L., Timp, W., Thomas, D. L., Clipman, S. J., & Kandathil, A. J. (2024). Long-Read Nanopore-Based Sequencing of Anelloviruses. Viruses, 16(5), 723. https://doi.org/10.3390/v16050723 
 
