@@ -24,10 +24,10 @@
 # -------------------------------------------------------------------------------------
 
 # Human reference
-HUMAN_REFERENCE="/Users/Steven/Library/CloudStorage/OneDrive-JohnsHopkins/Projects/Virome/Ref_Seq/GRCh38_wOther_annelo_masked.fasta.gz"
+HUMAN_REFERENCE=""
 
 # Anellovirus reference
-ANELLOVIRUS_REFERENCE="/Users/Steven/Library/CloudStorage/OneDrive-JohnsHopkins/Projects/Virome/Ref_Seq/ICTV9_Anelloviridae_RefSet_n66_ORF1.fasta"
+ANELLOVIRUS_REFERENCE=""
 
 # Number of CPU Threads
 THREADS=20
